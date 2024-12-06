@@ -1,16 +1,33 @@
-# sdd_app
+# Eye Disease Detection - Flutter App
 
-A new Flutter project.
+The **Eye Disease Detection** app uses machine learning models to detect potential eye diseases by analyzing images of the eye. This app is built using **Flutter** and integrates with a backend system for image processing and disease detection.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Upload images of the eye for disease detection.
+- Real-time eye disease detection using a trained machine learning model.
+- User-friendly interface with intuitive design.
+- Supports both Android and iOS platforms.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.0 or higher
+- Dart 2.18 or higher
+- Android Studio / VS Code (with Flutter & Dart plugins)
+- Xcode (for iOS development)
+- A physical device or emulator for testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation and Setup
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/yourusername/eye-disease-detection.git
+cd eye-disease-detection
+```
+### Step 2: Install Flutter dependencies
+```bash
+flutter pub get
+```
+### Step 3: Run the app
+```bash
+flutter run
